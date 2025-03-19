@@ -9,7 +9,7 @@ function Services() {
    <>
    <Navbar/>
    <div className="bg-[url('./assets/banner.jpg')] h-[500px] bg-cover">
-   <h1 className=' text-7xl font-bold text-center py-40'>Our Services</h1>
+   <h1 className='text-[#CA01FE] text-7xl font-bold text-center py-40'>Our Services</h1>
    </div>
 
 <Adegyada/>

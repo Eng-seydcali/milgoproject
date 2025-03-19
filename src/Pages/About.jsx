@@ -13,17 +13,20 @@ function About() {
 
      
      </div>
-     <div className="about flex ">
-        <img className='w-[500px] m-10 rounded-xl' src={aboutimg} alt="" />
-        <div className="contect">
-            <h1 className='text-4xl font-medium mt-20 mx-10'>Get Ready for Success with Bizmax Your Path to Growth.</h1>
-            <p className='text-2xl mt-5 mx-10'>Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses. Creating visual content, such as logos, brochures, infographics, and other branding materials.</p>
-        <button className='bg-[#CA01FE] text-white font-medium px-4 py-2 rounded-xl ml-10 mt-5 text-xl -text-white '>Get A Quote</button>
-        </div>
-    
-    
-     </div>
-
+     <div className="about flex flex-col md:flex-row items-center p-5">
+             <img className='w-full md:w-[500px] rounded-xl' src={aboutimg} alt="About Image" />
+             <div className="content text-center md:text-left md:ml-10">
+               <h1 className='text-3xl md:text-4xl font-medium mt-5 md:mt-20'>
+                 Get Ready for Success with Bizmax Your Path to Growth.
+               </h1>
+               <p className='text-lg md:text-2xl mt-3 md:mt-5'>
+                 Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses. Creating visual content, such as logos, brochures, infographics, and other branding materials.
+               </p>
+               <button className='bg-[#CA01FE] text-white font-medium px-6 py-3 rounded-xl mt-5 text-lg'>
+                 Get A Quote
+               </button>
+             </div>
+           </div>
      <Footer/>
     </>
   )
