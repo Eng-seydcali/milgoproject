@@ -11,8 +11,8 @@ function Navbar() {
             <ul className='flex gap-8 text-white text-xl '>
                 <Link to="/"><li>Home</li></Link>
                 <Link to="/About"><li>About</li></Link>
-                <Link to="/Projects"><li>Projects</li></Link>
                 <Link to="/Services"><li>Services</li></Link>
+                <Link to="/Projects"><li>Projects</li></Link>
                 <Link to="/"><li>Contuct Us</li></Link>
                 
             </ul>
