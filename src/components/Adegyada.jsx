@@ -6,25 +6,25 @@ function Adegyada() {
         {
           title: "Mobile App Development",
           description: "Services related to financial record-keeping, bookkeeping, tax preparation.",
-          image: "./public/images/mobiledev.jpg",
+          image: "./public/mobiledev.jpg",
         },
         {
           title: "IT Support and Consulting",
           description: "Providing technical support, network setup, software installation.",
          
-          image: "./public/images/programming.jpg",
+          image: "./public/programming.jpg",
         },
         {
           title: "Marketing and Advertising",
           description: "Services that help businesses create and execute marketing strategies.",
           
-          image: "./public/images/marketing.jpg",
+          image: "./public/marketing.jpg",
         },
         {
           title: "Software Development",
           description: "Assistance with HR-related tasks such as recruitment, employee training, performance.",
           
-          image: "./public/images/soft.png",
+          image: "./public/soft.png",
         },
       ];
   return (
