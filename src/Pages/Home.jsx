@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import homeimg from "../assets/homeimg.png"
-import aboutimg from "../assets/About.png"
+import aboutimg from "../assets/about.png"
 import Adegyada from '../components/Adegyada'
 import Footer from '../components/Footer'
 
